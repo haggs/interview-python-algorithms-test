@@ -4,7 +4,7 @@
 #
 # NOTE: The question simply asked me to print all keys and their depth, BUT the sample output
 #       from the problem was formatted in a very specific way. I decided to match the sample output
-#       even though it made my code more complex, because I like to give the "client" what they expect ;-)
+#       even though it made my code more complex, because I like to give the client what they expect :)
 #
 # Author: Dan Haggerty
 # Date:   July 5th, 2015
@@ -30,7 +30,7 @@ def print_depth(data, depth=0):
         if isinstance(data[key], dict):
             dicts_at_this_depth.append(key) # Also build a list of values that are dictionaries
 
-    # Print any values that are dictionaries last
+    # Print any values that are dictionaries last, as it was done in the sample output
     for key in dicts_at_this_depth:
         print_depth(data[key], depth)
 
