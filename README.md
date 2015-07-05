@@ -1,5 +1,6 @@
 # Python Algorithms Test
-The answers to these questions can be found in the files: **_print_depth.py_** and **_least_common_ancestor.py_**
+The answers to these questions can be found in the files: **_print_depth.py_** and **_least_common_ancestor.py_**. NOTE: Discussions
+about my answers can be found in the comment block at the top of each Python file.
 ### 1) Write following functions body. A nested dictionary is passed as parameter. You need to print all keys with their depth.
 Sample Input:
 ```python
