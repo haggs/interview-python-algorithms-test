@@ -35,7 +35,7 @@ class Node{
     parent;
 }
 ```
-
+![Image](https://github.com/dhaggerty88/revel_python_test/blob/master/img/Capture.PNG)
 Ancestor Definition:
 
 1) Any node falls under parent chain till root node.
