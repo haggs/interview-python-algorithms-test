@@ -2,9 +2,14 @@
 # This file contains the definition and unit test of the print_depth() function, which prints
 # the depth of all dictionary keys found in a provided (potentially nested) dictionary.
 #
-# NOTE: The question simply asked me to print all keys and their depth, BUT the sample output
-#       from the problem was formatted in a very specific way. I decided to match the sample output
-#       even though it made my code more complex, because I like to give the client what they expect :)
+# NOTE: The problem said the function should have the signature "print_depth(data)". I wanted to solve
+#       the problem recursively which required a "depth" parameter. Since I gave it a default value for
+#       this second parameter, it wouldn't break any code that just calls "print_depth(data)" so I figured
+#       it was okay.
+#
+# OTHER NOTE: The problem simply asked me to print all keys and their depth, BUT the sample output
+#             from the problem was formatted in a very specific way. I decided to match the sample output
+#             even though it made my code more complex, because I like to give the client what they expect :)
 #
 # Author: Dan Haggerty
 # Date:   July 5th, 2015
