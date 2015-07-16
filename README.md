@@ -52,4 +52,4 @@ def lca(node1, node2):
     # Write function body
 ```
 
-You may write additional function.
+You may write additional functions.
