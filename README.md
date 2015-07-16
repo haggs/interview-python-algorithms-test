@@ -2,7 +2,7 @@
 My solutions to these problems can be found in the files: **_print_depth.py_** and **_least_common_ancestor.py_**.
 
 **NOTE**: Discussions about my answers can be found in the comment block at the top of each Python file.
-### 1) Write following functions body. A nested dictionary is passed as parameter. You need to print all keys with their depth.
+### 1) Write following function body. A nested dictionary is passed as parameter. You need to print all keys with their depth.
 Sample Input:
 ```python
 a = { “key1”: 1,
@@ -27,9 +27,9 @@ def print_depth(data):
     # Write function body
 ```
 
-You may write additional function.
+You may write additional functions.
 
-###2) Write following functions body. 2 Nodes are passed as parameter. You need to find Least Common Ancestor and print its value. Node structure are as following:
+###2) Write following function body. 2 Nodes are passed as parameters. You need to find their Least Common Ancestor and print its value. Node structure are as follows:
 
 ```python
 class Node{
@@ -52,4 +52,4 @@ def lca(node1, node2):
     # Write function body
 ```
 
-You may write additional function. Explain Runtime and Memory requirement for your solution.
+You may write additional function.
